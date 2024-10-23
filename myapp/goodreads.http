@@ -1,0 +1,15 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "type": "income/expense",
+    "category": "string",
+    "amount": number,
+    "date": "YYYY-MM-DD",
+    "description": "string"
+}
+
+
+###
